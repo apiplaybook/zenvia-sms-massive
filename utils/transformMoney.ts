@@ -3,5 +3,5 @@ export const transformMoney = (value?: number) => {
 		return ''
 	}
 	const money = value.toString().split('.')
-	return `e você paga R$ ${money[0]},${money[1]}`
+	return `R$ ${money[0]},${money[1]}`
 }

@@ -33,7 +33,9 @@ export class SendPlanUpgradeController {
 										people.name
 									}, tudo bem? Somos da sua provedora de telefonia e internet TelenetCopany e estamos aqui para oferecer um upgrade no seu plano. Seu Plano é o ${
 										people.Plan?.name
-									} ${transformMoney(people.Plan?.total)}. Você pode atualizar ele para o ${
+									} e você paga ${transformMoney(
+										people.Plan?.total
+									)}. Você pode atualizar ele para o Plano ${
 										mostExpensivePlan.name
 									}, onde os seus benefícios avulsos saem por um total de ${transformMoney(
 										mostExpensivePlan.total
